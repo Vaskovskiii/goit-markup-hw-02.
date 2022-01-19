@@ -17,6 +17,18 @@ font-family: 'Roboto', sans-serif;
 
 /*--------------header---------------------*/
 
+.header-logo {
+font-family: Raleway;
+font-style: Bold;
+font-size: 26px;
+line-height: calc(31 / 26);
+line-height: 100%;
+align: Left;
+vertical-align: Top;
+letter-spacing: 3%;
+display: inline-block;
+color:#2196F3;
+}
 .header-studio {
 font-family: Raleway;
 font-style: Bold;
@@ -26,8 +38,10 @@ line-height: 100%;
 align: Left;
 vertical-align: Top;
 letter-spacing: 3%;
-color: var(--blue-text-colour);
+display: inline-block;
+color: #212121;
 }
+
 
 .header-list {
 font-size: 14px;
@@ -154,8 +168,7 @@ letter-spacing: 3%;
   background-color: #2F303A;
 }
 
-.footer-studio {
-color:var(--blue-text-colour);
+.footer-logo {
 font-family: 'Raleway', sans-serif;
 font-style: Bold;
 font-size: 26px;
@@ -164,6 +177,19 @@ line-height: 100%;
 align: Left;
 vertical-align: Top;
 letter-spacing: 3%;
+color:#2196F3;
+}
+
+.footer-studio {
+font-family: 'Raleway', sans-serif;
+font-style: Bold;
+font-size: 26px;
+line-height: calc(31 / 26);
+line-height: 100%;
+align: Left;
+vertical-align: Top;
+letter-spacing: 3%;
+color: #FFFFFF;
 }
 
 .footer-map {
@@ -173,7 +199,7 @@ letter-spacing: 3%;
   align: Left;
   vertical-align: Top;
   letter-spacing: 3%;
-  color: #FFFFFF;
+  color: #2196F3;
 }
 
 .footer-tel {
@@ -204,6 +230,7 @@ letter-spacing: 3%;
 /*--------portfolio-------*/
 
 
+
 .portfolio-link {
   font-style: Medium;
   font-size: 16px;
@@ -221,6 +248,7 @@ radius: 2px;
 offset: 0px, 2px;
 color: rgba(0, 0, 0, 0.12);
 }
+
 
 .photo-title {
 font-style: Bold;
