@@ -3,7 +3,7 @@
 }
 
 
-.body {
+body {
 font-family: 'Roboto', sans-serif;
 }
 
@@ -18,35 +18,26 @@ font-family: 'Roboto', sans-serif;
 /*--------------header---------------------*/
 
 .header-logo {
-font-family: Raleway;
-font-style: Bold;
-font-size: 26px;
-line-height: calc(31 / 26);
-line-height: 100%;
-align: Left;
-vertical-align: Top;
-letter-spacing: 3%;
-display: inline-block;
-color:#2196F3;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+
+  color: #2196F3;
 }
 .header-studio {
-font-family: Raleway;
-font-style: Bold;
-font-size: 26px;
-line-height: calc(31 / 26);
-line-height: 100%;
-align: Left;
-vertical-align: Top;
-letter-spacing: 3%;
-display: inline-block;
-color: #212121;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 
 .header-list {
 font-size: 14px;
 line-height: calc(16 / 14);
-line-height: 100%;
 align: Left;
 vertical-align: Top;
 letter-spacing: 2%;
@@ -76,91 +67,86 @@ color:#2196F3;
 }
 
 .solution-title {
-color: #FFFFFF;
-font-size: 44px;
-line-height: calc(60 / 44);
-line-height: 116%;
-align: Center;
-vertical-align: Top;
-letter-spacing: 6%;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .solution-btn {
-background-color: #2196F3;
-color: #FFFFFF; 
-effect: Drop shadow;
-radius: 4px;
-offset: 0px, 4px;
+  font-size: 16px;
+  line-height: 30px; 
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #FFFFFF;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background: #2196F3;
 }
 
 /*-------------grade---------------------*/
 
 .grade-title{
-  color:#212121;
   font-size: 14px;
-  line-height: calc(16 / 14);
-  line-height: 100%;
-  align: Left;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #212121;
 }
 
 .grade-aft-title {
-color: #757575;
-font-style: Regular;
-font-size: 14px;
-line-height: calc(24 / 14);
-line-height: 146%;
-align: Left;
-vertical-align: Top;
-letter-spacing: 3%;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  
+  color: #757575;
 }
 
 /*-----------------whatdo_________________*/
 
 .whatdo-title {
-  color: #212121;
-  font-style: Bold;
   font-size: 36px;
-  line-height: 1.16;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #212121;
   }
   
   /*------------team-----------------*/
 
 
 .team-title {
-  font-style: Bold;
   font-size: 36px;
   line-height: calc(42 / 36);
-  line-height: 100%;
-  align:-Center;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #212121;
 }
 
-.team-pre-title {
-color: #212121;
-font-style: Medium;
-font-size: 16px;
-line-height: calc(19 / 16);
-line-height: 100%;
-align: Center;
-vertical-align: Top;
-letter-spacing: 3%;
+.team-pre-title{
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 .team-aft-title{
-color: #757575;
-font-style: 'Regular';
-font-size: 16px;
-line-height:calc(19 / 16);
-line-height: 100%;
-align: Center;
-vertical-align: Top;
-letter-spacing: 3%;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  
+  color: #757575;
 }
 /*------------footer-------------*/
 
@@ -169,62 +155,59 @@ letter-spacing: 3%;
 }
 
 .footer-logo {
-font-family: 'Raleway', sans-serif;
-font-style: Bold;
-font-size: 26px;
-line-height: calc(31 / 26);
-line-height: 100%;
-align: Left;
-vertical-align: Top;
-letter-spacing: 3%;
-color:#2196F3;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+
+  color: var(--blue-text-colour);
 }
 
 .footer-studio {
-font-family: 'Raleway', sans-serif;
-font-style: Bold;
-font-size: 26px;
-line-height: calc(31 / 26);
-line-height: 100%;
-align: Left;
-vertical-align: Top;
-letter-spacing: 3%;
-color: #FFFFFF;
-}
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
 
-.footer-map {
-  font-style: Regular;
-  font-size: 14px;
-  line-height: 1.46;
-  align: Left;
-  vertical-align: Top;
-  letter-spacing: 3%;
-  color: #2196F3;
-}
-
-.footer-tel {
-  font-family: 'Roboto';
-  font-style: Regular;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  line-height: 100%;
-  align: Left;
-  vertical-align: Top;
-  letter-spacing: 3%;
-  color: rgba(255, 255, 255, 0.6);
+  color: #FFFFFF;
 }
 
 .footer-mail {
-  font-family: 'Roboto';
-  font-style: Regular;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
-  line-height: 100%;
-  align: Left;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
+  
   color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-tel {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.footer-map {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  
+  color: #FFFFFF;
+}
+
+
+
 
 
 /*--------portfolio-------*/
@@ -235,7 +218,6 @@ color: #FFFFFF;
   font-style: Medium;
   font-size: 16px;
   line-height: calc(26 / 16);
-  line-height: 139%;
   align: Center;
   vertical-align: Top;
   letter-spacing: 3%;
@@ -251,23 +233,17 @@ color: rgba(0, 0, 0, 0.12);
 
 
 .photo-title {
-font-style: Bold;
-font-size: 18px;
-line-height: calc(36 / 18);
-line-height: 171%;
-align: Left;
-vertical-align: Top;
-letter-spacing: 6%;
-color: #212121;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  
+  color: #212121;
 }
 
 .photo-sec-title {
-  font-style: Regular;
   font-size: 16px;
   line-height: calc(30 / 16);
-  line-height: 160%;
-  align: Left;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
+  
   color: #757575;
 }
