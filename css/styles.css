@@ -234,12 +234,18 @@ color: #757575;
   color: #fff;
 }
 
+.portfolio-btn {
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+
 .portfolio-item {
-effect-Style: shadow-middle;
-effect: Drop shadow;
-radius: 2px;
-offset: 0px, 2px;
-color: rgba(0, 0, 0, 0.12);
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 
