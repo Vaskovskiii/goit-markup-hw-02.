@@ -226,17 +226,23 @@ color: #757575;
 /*--------portfolio-------*/
 
 
-.portfolio-link {
-  font-size: 16px;
-  line-height: calc(26 / 16);
-  letter-spacing: 0.03em;
 
-  color: #fff;
-}
 
 .portfolio-btn {
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em; 
+  text-align: center;
+
+  color: #212121;
+
   background: #F5F4FA;
   border-radius: 4px;
+}
+
+.portfolio-btn:hover {
+  background-color:var(--blue-text-colour);
+  color: #FFFFFF;
 }
 
 .portfolio-item {
